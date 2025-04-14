@@ -40,7 +40,7 @@ To try `KBY-AI`'s `Fire/Smoke Detection SDK` online, please visit [here](https:/
 
 ## SDK License
 This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires a license per machine.</br>
-- The code below shows how to use the license: https://github.com/kby-ai/Fire-Smoke-Detection/blob/82229e8460d72789b47b3c2038d41568ca4cf547/app.py#L17-L28
+- The code below shows how to use the license: https://github.com/kby-ai/Fire-Smoke-Detection-Docker/blob/e2f68c88839d0c21a77d8b54d58802bcca01df5b/app.py#L17-L28
 - To request the license, please provide us with the `machine code` obtained from the `getMachineCode` function.</br>
 #### Please contact us:</br>
 🧙`Email:` contact@kby-ai.com</br>
@@ -61,10 +61,10 @@ This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires 
 ### 2. Setup and Test
   - Clone the project:
     ```bash
-    git clone https://github.com/kby-ai/Fire-Smoke-Detection.git
+    git clone https://github.com/kby-ai/Fire-Smoke-Detection-Docker.git
     ```
     ```bash
-    cd Fire-Smoke-Detection
+    cd Fire-Smoke-Detection-Docker
     ```
   - Build the `Docker` image:
     ```bash
