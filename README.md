@@ -23,8 +23,30 @@ sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:
 
 ## Overview
 
-This repository demonstrates  `Fire/Smoke Detection` SDK with high accuracy by applying artificial intelligence and machine learning techniques. </br>
+This repository demonstrates  `Fire/Smoke Detection SDK` with high accuracy by applying artificial intelligence and machine learning techniques. </br>
 Fire and smoke are common hazards that can cause severe damage to life and property. Early detection of fire and smoke can help in preventing or mitigating the consequences of such disasters. However, traditional fire and smoke detection methods, such as sensors and alarms, may not be effective in some scenarios, such as outdoor environments, large areas, or complex scenes. Therefore, there is a need for a system that can use the power of computer vision and deep learning to analyze visual data and identify fire and smoke events in real time.
 > We can customize the `SDK` to align with customer's specific requirements.
+
+## Try the API
+## Online Demo
+To try `KBY-AI`'s `Fire/Smoke Detection SDK` online, please visit [here](https://huggingface.co/spaces/kby-ai/FireSmokeDetection)
+ ![image](https://github.com/user-attachments/assets/28f04d35-090b-4d34-864d-100b6a9374da)
+ 
+### Postman
+  The `API` can be evaluated through `Postman` tool. Here are the endpoints for testing:
+  - Test with an image file: Send a `POST` request to `http://127.0.0.1:8081/fire`.
+  - Test with a `base64-encoded` image: Send a `POST` request to `http://127.0.0.1:8081/fire_base64`.
+  ![image](https://github.com/user-attachments/assets/8518eb28-23a6-451c-8610-79a5ad560f28)
+
+## SDK License
+This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires a license per machine.</br>
+- The code below shows how to use the license: https://github.com/kby-ai/Automatic-License-Plate-Recognition-Docker/blob/06a13d653646b9b123e5d164c18af9ae13351d53/app.py#L17-L28
+- To request the license, please provide us with the `machine code` obtained from the `getMachineCode` function.</br>
+#### Please contact us:</br>
+🧙`Email:` contact@kby-ai.com</br>
+🧙`Telegram:` [@kbyai](https://t.me/kbyai)</br>
+🧙`WhatsApp:` [+19092802609](https://wa.me/+19092802609)</br>
+🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
+🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
 
