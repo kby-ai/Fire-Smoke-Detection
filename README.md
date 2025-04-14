@@ -25,7 +25,6 @@ sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:
 
 This repository demonstrates  `Fire/Smoke Detection` SDK with high accuracy by applying artificial intelligence and machine learning techniques. </br>
 Fire and smoke are common hazards that can cause severe damage to life and property. Early detection of fire and smoke can help in preventing or mitigating the consequences of such disasters. However, traditional fire and smoke detection methods, such as sensors and alarms, may not be effective in some scenarios, such as outdoor environments, large areas, or complex scenes. Therefore, there is a need for a system that can use the power of computer vision and deep learning to analyze visual data and identify fire and smoke events in real time.
-`KBY-AI`'s `LPR` solutions utilizes artificial intelligence and machine learning to greatly surpass legacy solutions. Now, in real-time, users can receive a vehicle's plate number through `API`.
 > We can customize the `SDK` to align with customer's specific requirements.
 
-The `ALPR` system works in these strides, the initial step is the location of the vehicle and capturing a vehicle image of front or back perspective of the vehicle, the second step is the localization of Number Plate and then extraction of vehicle Number Plate is an image. The final stride uses image segmentation strategy, for the segmentation a few techniques neural network, mathematical morphology, color analysis and histogram analysis. Segmentation is for individual character recognition. Optical Character Recognition (OCR) is one of the strategies to perceive the every character with the assistance of database stored for separate alphanumeric character.
+
