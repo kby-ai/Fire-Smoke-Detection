@@ -81,7 +81,7 @@ This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires 
     ```bash
     sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:8080 -p 9001:9000 kby-ai-fire
     ```
-    ![image](https://github.com/user-attachments/assets/cb2806e0-93be-4b0a-be9f-713559b89d35)
+    ![image](https://github.com/user-attachments/assets/f241d982-48f8-4a71-b4b3-cfac8778388e)
 
   - Here are the endpoints to test the `API` through `Postman`:
     Test with an image file: Send a `POST` request to `http://{xx.xx.xx.xx}:8081/fire`.</br>
