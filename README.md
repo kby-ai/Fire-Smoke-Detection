@@ -49,4 +49,41 @@ This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires 
 🧙`Discord:` [KBY-AI](https://discord.gg/CgHtWQ3k9T)</br>
 🧙`Teams:` [KBY-AI](https://teams.live.com/l/invite/FBAYGB1-IlXkuQM3AY)</br>
 
+## How to run
+
+### 1. System Requirements
+  - `CPU`: 2 cores or more (Recommended: 2 cores)
+  - `RAM`: 4 GB or more (Recommended: 8 GB)
+  - `HDD`: 4 GB or more (Recommended: 8 GB)
+  - `OS`: `Ubuntu 20.04` or later
+  - Dependency: `ncnn` (Version: 2024.12.26)
+
+### 2. Setup and Test
+  - Clone the project:
+    ```bash
+    git clone https://github.com/kby-ai/Fire-Smoke-Detection.git
+    ```
+    ```bash
+    cd Fire-Smoke-Detection
+    ```
+  - Build the `Docker` image:
+    ```bash
+    sudo docker build --pull --rm -f Dockerfile -t kby-ai-fire:latest .
+    ```
+  - Read `machine code`
+    ```
+    sudo docker run -e LICENSE="xxxxx" kby-ai-fire:latest
+    ```
+  - Send us `machine code` obtained.
+    ![image](https://github.com/user-attachments/assets/a6ca197d-43a7-4177-952b-9ebdbaeb0164)
+  - Update the `license.txt` file by overwriting the `license key` that you received from `KBY-AI` team.
+  - Run the `Docker` container:
+    ```bash
+    sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:8080 -p 9001:9000 kby-ai-fire
+    ```
+    ![image](https://github.com/user-attachments/assets/cb2806e0-93be-4b0a-be9f-713559b89d35)
+
+  - Here are the endpoints to test the `API` through `Postman`:
+    Test with an image file: Send a `POST` request to `http://{xx.xx.xx.xx}:8081/alpr`.</br>
+    Test with a `base64-encoded` image: Send a `POST` request to `http://{xx.xx.xx.xx}:8081/alpr_base64`.</br>
 
