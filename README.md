@@ -79,7 +79,7 @@ This project demonstrates `KBY-AI`'s `Fire/Smoke Detection SDK`, which requires 
   - Update the `license.txt` file by overwriting the `license key` that you received from `KBY-AI` team.
   - Run the `Docker` container:
     ```bash
-    sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:8080 -p 9001:9000 kby-ai-fire
+    sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:8080 -p 9001:9000 kby-ai-fire:latest
     ```
     ![image](https://github.com/user-attachments/assets/f241d982-48f8-4a71-b4b3-cfac8778388e)
 
