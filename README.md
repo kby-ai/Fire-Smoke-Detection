@@ -23,8 +23,8 @@ sudo docker run -v ./license.txt:/home/openvino/kby-ai-fire/license.txt -p 8081:
 
 ## Overview
 
-This repository demonstrates  `Fire/Smoke Detection SDK` with high accuracy by applying artificial intelligence and machine learning techniques. </br>
-Fire and smoke are common hazards that can cause severe damage to life and property. Early detection of fire and smoke can help in preventing or mitigating the consequences of such disasters. However, traditional fire and smoke detection methods, such as sensors and alarms, may not be effective in some scenarios, such as outdoor environments, large areas, or complex scenes. Therefore, there is a need for a system that can use the power of computer vision and deep learning to analyze visual data and identify fire and smoke events in real time.
+This repository demonstrates  `Fire/Smoke Detection SDK` which transforms your CCTV system into an early warning sensor for fire & smoke through docker image pre-built by `KBY-AI`. </br>
+Fire and smoke are common hazards that can cause severe damage to life and property. Fires often begin in quiet, low-traffic areas—electrical rooms, loading docks, storage areas—where nobody’s watching. `KBY-AI`'s `fire/smoke detection SDK` turns your existing CCTV into smart fire sentries, instantly detecting smoke or flames before they spiral into a crisis. Perfect for warehouses, industrial sites, and logistics hubs.
 > We can customize the `SDK` to align with customer's specific requirements.
 
 ## Try the API
